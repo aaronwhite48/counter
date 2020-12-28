@@ -18,7 +18,7 @@ export class Counter extends Component {
 
     // Reset total to zero
     clearCounter = () => {
-        this.setState({ totalCount: this.state.totalCount * 0 })
+        this.setState({ totalCount: this.state.totalCount * 0 });
     }
     
     render() {
